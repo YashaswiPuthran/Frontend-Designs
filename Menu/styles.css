@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: rgb(8, 3, 60);
   color: #fff;
   position: sticky;
   top: 0;
@@ -58,12 +58,15 @@ header {
   display: none;
   position: absolute;
   top: 100%;
-  background-color: #333;
+  background-color: rgb(8, 3, 60);
   padding: 25px 10px;
 }
 
 .menu ul li.active .sub-menu {
   display: block;
+}
+.sub-menu li {
+  padding-bottom: 6px;
 }
 
 .main-menu li a {
@@ -106,6 +109,11 @@ header {
     padding: 0 10px;
   }
 
+  .dropdown {
+    border-bottom: 1px solid rgb(16, 57, 69);
+    padding: 10px 0;
+  }
+
   .menu ul li .sub-menu {
     padding: 15px 10px;
   }
@@ -142,7 +150,7 @@ header {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #333;
+    background-color: rgb(8, 3, 60);
     overflow-y: auto;
     overflow-x: hidden;
     width: 100%;
@@ -172,7 +180,7 @@ header {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background-color: #333;
+  background-color: rgb(8, 3, 60);
   display: block;
 }
 
